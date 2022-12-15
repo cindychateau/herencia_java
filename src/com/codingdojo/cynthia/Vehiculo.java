@@ -2,11 +2,12 @@ package com.codingdojo.cynthia;
 
 public class Vehiculo {
 	
-	private int anio;
+	protected int anio; //protected nos deja accedar a las variables en herencia
 	private String marca;
 	private String modelo;
 	private String color;
 	private int ruedas;
+	protected int velocidad = 0;
 	
 	public Vehiculo() {
 	}
